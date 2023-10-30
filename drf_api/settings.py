@@ -36,7 +36,8 @@ SECRET_KEY = 'django-insecure-%+h=bo22o*4ke_nd!$173!ps5jq6p8c%tuvzf_ixy&xt&zf_pq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-digimori-djangorest-9j9u54yt6rp.ws-eu105.gitpod.io', 'localhost']
+CSRF_TRUSTED_ORIGINS = ['https://8000-digimori-djangorest-9j9u54yt6rp.ws-eu105.gitpod.io']
 
 
 # Application definition
